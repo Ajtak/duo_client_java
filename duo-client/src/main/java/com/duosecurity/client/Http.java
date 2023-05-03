@@ -44,6 +44,7 @@ public class Http {
   public static MediaType FORM_ENCODED = MediaType.parse("application/x-www-form-urlencoded");
 
   private static final String[] DEFAULT_CA_CERTS = {
+      "sha256/bhtNIHLiNK/TTu/PnN6z62EjW1YWXV2JyVxPaeqoDaM=",
       //C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Assured ID Root CA
       "sha256/I/Lt/z7ekCWanjD0Cvj5EqXls2lOaThEA0H2Bg4BT/o=",
       //C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA
